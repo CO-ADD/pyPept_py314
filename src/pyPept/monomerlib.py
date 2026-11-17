@@ -109,7 +109,7 @@ class MonomerLibrary:
             MonomerConstants.attr_linkable_R_group_attachidx,
             ]
         for group in groups:
-            df_group[group] = df_group[group].astype('object)
+            df_group[group] = df_group[group].astype('object')
         for idx in df_group.index:
             for group in groups:
                 change = df_group[group][idx].split(
