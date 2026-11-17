@@ -6,6 +6,10 @@
 * Journal of Cheminformatics, 2023, 15:79
 * Authors: Rodrigo Ochoa, J.B Brown, Thomas Fox
 
+## Fork
+This a fork of the original pyPept with adaptations to python 3.14 and BILN extensions (multiple sequences)  
+* Authors: Johannes Zuegg
+
 ## Purpose
 
 pyPept is a package to allow the analysis of natural and modified peptides that are assembled based on personalized monomer dictionaries using the Boehringer Ingelheim line notation format (BILN). From a BILN, a peptide construct can then be represented as an RDKit object for further prediction of properties and usage in a variety of software packages that handle chemical structures. pyPept provides both programmatic APIs and CLI tools. 
