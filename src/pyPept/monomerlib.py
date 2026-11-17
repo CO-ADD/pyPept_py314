@@ -108,7 +108,8 @@ class MonomerLibrary:
             MonomerConstants.attr_linkable_R_grop_idx,
             MonomerConstants.attr_linkable_R_group_attachidx,
             ]
-
+        for group in groups:
+            df_group[group] = df_group[group].astype('object)
         for idx in df_group.index:
             for group in groups:
                 change = df_group[group][idx].split(
@@ -119,7 +120,7 @@ class MonomerLibrary:
                 else:
                     updated_change = [
                         None if v == 'None' else int(v) for v in change]
-                df_group.loc[idx, group] = updated_change
+                df_group.at[idx, group] = updated_change
         df_group = df_group.set_index('symbol')
         df_group = df_group.rename(columns={"ROMol": "m_romol"})
 
