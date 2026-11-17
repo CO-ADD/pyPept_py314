@@ -8,7 +8,7 @@
 
 ## Fork
 This a fork of the original pyPept with adaptations to python 3.14 and BILN extensions (multiple sequences)  
-* Authors: Johannes Zuegg
+* Authors: Johannes Zuegg (CO-ADD; University of Queensland)
 
 ## Purpose
 
@@ -20,9 +20,8 @@ The package relies on the RDKit (https://rdkit.org/) and BioPython (https://biop
 
 ## Quick installation
 
-We recommend creating a conda environment with python 3.9
 ```Bash
-conda create -n pypept python=3.9
+conda create -n pypept python
 conda activate pypept
 ```
 The remaining dependencies such as BioPython and Pandas can be installed using the `setup.py` file provided in the code repository, which uses python package managers to easily install the required modules. The script can be called with:
@@ -190,4 +189,4 @@ If you use pyPept in your work, please cite the following papers:
 
 ## Support
 
-For inquiries please contact: thomas.fox@boehringer-ingelheim.com .
+For inquiries to this fork please contact: j.zuegg@uq.edu.au .
