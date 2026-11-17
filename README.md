@@ -27,7 +27,7 @@ conda activate pypept
 ```
 The remaining dependencies such as BioPython and Pandas can be installed using the `setup.py` file provided in the code repository, which uses python package managers to easily install the required modules. The script can be called with:
 ```Bash
-pip install git+https://github.com/Boehringer-Ingelheim/pyPept.git
+pip install git+https://github.com/CO-ADD/pyPept_py314.git
 ```
 
 That's all there is to installation! The main pyPept BILN-to-structure pipeline can be run using the provided `run_pyPept` CLI tool, or by using pyPept modules directly in a python script.
