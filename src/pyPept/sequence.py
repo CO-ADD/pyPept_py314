@@ -526,7 +526,7 @@ def get_monomer_info(path):
 
     groups = ['m_Rgroups', 'm_RgroupIdx', 'm_attachmentPointIdx']
     for group in groups:
-        df_group[group] = df_group[group].astype('object)
+        df_group[group] = df_group[group].astype('object')
     for idx in df_group.index:
         for group in groups:
             change = df_group[group][idx].split(SequenceConstants.csv_separator)
